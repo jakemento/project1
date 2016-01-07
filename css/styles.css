@@ -1,5 +1,6 @@
 p {
   color:blue;
+  background-color: beige;
 }
 
 .bg {
@@ -12,30 +13,38 @@ p {
     width: 100%;
     z-index: 0;
     height: 270px;
-    border: 20px;
+    border: 5px;
     border-style:dashed;
     border-color: blue;
 
-}
-
-html {
-  background-color: #707070;
 }
 
 .row {
   background-color: yellow;
 }
 
-h1 {
-  background-color: #fddfd3;
-
+html {
+  background-color: #707070;
 }
 
-p {
-  background-color: beige;
-}
+
+
 .pad1 {
   margin-top: 0px;
   margin-bottom: 0px;
   text-align: center;
+}
+
+.carousel {
+  text-align:center;
+  padding: 2px;
+}
+html, body, div, span, applet, object, p, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
