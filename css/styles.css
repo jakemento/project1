@@ -12,4 +12,30 @@ p {
     width: 100%;
     z-index: 0;
     height: 270px;
+    border: 20px;
+    border-style:dashed;
+    border-color: blue;
+
+}
+
+html {
+  background-color: #707070;
+}
+
+.row {
+  background-color: yellow;
+}
+
+h1 {
+  background-color: #fddfd3;
+
+}
+
+p {
+  background-color: beige;
+}
+.pad1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
 }
